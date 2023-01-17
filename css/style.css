@@ -1,0 +1,165 @@
+:root{
+    --corprincipal:#36393f;
+    --corsecundaria:#5865f2;
+    --corterciaria:#5865f2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fundo-discord2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.container{
+    width: 58vw;
+    height: 460px;
+    background: var(--corprincipal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px rgba(0, 0, 0, 0.267);
+}
+
+.form-box{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 11pt;
+}
+
+.header > h1{
+    color: #f0ffffde;
+    text-align: center;
+}
+
+.header > p{
+    color: #808080;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+.input-zone{
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input-zone label{
+    color: #9b9797;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.input-zone input{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px rgb(35, 35, 35);
+    background: #202225 ;
+    border-radius: 3px;
+    color: #f0ffffde;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.input-zone input:focus-visible{
+    outline: 1px solid var(--corterciaria);
+    font-weight: bold;
+}
+
+.input-zone p{
+    margin-top: 7px;
+}
+
+.container a{
+    font-weight: 500;
+    color: var(--corterciaria);
+    text-decoration: none;
+}
+
+.btn{
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;   
+}
+
+.btn p{
+    color: #808080;
+    margin-top: 8px;
+}
+.btn a{
+    margin-left: 5px;
+}
+
+.btn .btn-login{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: var(--corterciaria);
+    border-radius: 3px;
+    color: #f0ffffde;
+    font-weight: 500;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.btn .btn-login:hover{
+    background: #50609b;
+}
+.qr-code{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.qr-code img{
+    width: 9.9vw;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+.qr-code h1{
+    color: #f0ffffde;
+    margin-top: 12px;
+    font-size: 23pt;
+}
+.qr-code p{
+    color: #808080;
+    text-align: center;
+}
+.qr-code .p{
+    width: 70%;
+}
